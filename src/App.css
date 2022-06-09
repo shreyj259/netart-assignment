@@ -32,8 +32,7 @@ img{
 .col-1{
     display: flex;
     flex: 1 1;
-    padding: 20px 30px;
-    align-items: center;
+    padding: 10px 30px;
     justify-content: center;
 }
 
@@ -43,7 +42,7 @@ img{
 }
 
 .col-1 img{
-    max-width: 500px;
+    max-width: 450px;
     min-width: 200px;
 }
 
@@ -62,7 +61,7 @@ img{
     align-items: center;
 }
 
-.img-3{
+.img-3 img{
     margin: 20px;
     width: 100%;
     max-width: 1200px;
@@ -74,6 +73,7 @@ img{
 
 .footer-text{
     text-align: center;
+    margin: 0 10px;
 }
 
 .footer{
@@ -111,11 +111,8 @@ img{
         max-width: 350px;
         min-width: 200px;
     }
-}
-
-
-@media only screen and (max-width: 500px) {
     .footer{
         flex-direction: column;
     }
+
 }
